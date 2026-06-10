@@ -94,5 +94,4 @@ I also encountered challenges when comparing the different methods in the same v
 
 This visualization project demonstrates how the Euler's Method errors over time which makes its path differ from the exact and RK4 solutions. RK4 produces a higher accuracy and matches the exact solution throughout the simulation. I know this is true because the RK4 solution overlaps the exact solution, proving they are the same and the Euler's method is slightly incorrect. I've been working on this project consistently for the past two weeks. I felt like with just implementing the Euler method it wasn't challenging enough, so I added the RK4 solution and the exact mathematical solution. Not only did this make it more challenging, it also made the project more exciting to watch and play around with. I also added some camera movement so the user can easily track the particle movement. 
 
-
-
+The visualization can be viewed here: https://uoregon-my.sharepoint.com/:v:/g/personal/alexiac_uoregon_edu/IQB-3UTYM4TKRZtf_ZrSy_aQAWh251bCbHt5XYgCAYaZSB8?e=cWKYPc 
