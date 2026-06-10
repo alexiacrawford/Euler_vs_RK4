@@ -62,6 +62,6 @@ vtk_output/
 
 ## Results
 
-The visualization demonstrates that Euler's Method accumulates numerical error over time, causing its trajectory to diverge from the exact solution. RK4 produces significantly higher accuracy and closely matches the analytical solution throughout the simulation. I know this is true because the RK4 solution overlaps the exact solution, proving they are the same and the Euler's method is slightly incorrect. 
+The visualization demonstrates that Euler's Method accumulates numerical error over time, causing its trajectory to differ from the exact solution. RK4 produces much higher accuracy and closely matches the analytical solution throughout the simulation. I know this is true because the RK4 solution overlaps the exact solution, proving they are the same and the Euler's method is slightly incorrect. 
 
 ---
