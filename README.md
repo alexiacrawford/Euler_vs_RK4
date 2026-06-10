@@ -8,7 +8,7 @@ For this project I wanted to show methods for simulating projectile motion under
 2. Fourth-Order Runge-Kutta (RK4)
 3. Exact Analytical Solution
 
-The resulting trajectories were exported as VTK files and visualized in VisIt. The visualization highlights how numerical error accumulates in Euler's Method while RK4 remains nearly identical to the exact solution. To run this simulation you must have Python and csv, os, and math modules installed.
+The trajectories that were created were exported as VTK files and visualized in VisIt. The visualization shows how numerical error accumulates in Euler's Method while RK4 is nearly identical to the exact solution. To run this simulation you must have Python and csv, os, and math modules installed.
 
 ---
 
