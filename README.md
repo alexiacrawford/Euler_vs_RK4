@@ -37,8 +37,6 @@ Each file stores one timestep of simulation data.
 
 ### particles.visit
 
-VisIt database file.
-
 This file contains the VTK files and allows VisIt to load them as a time-varying dataset for animation.
 
 
