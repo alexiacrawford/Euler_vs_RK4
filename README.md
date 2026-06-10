@@ -51,19 +51,15 @@ Example inputs:
 The terminal will show examples for every input the user needs to provide so if they are confused there is guidance.
 
 Initial x position: 0
-
 Initial y position: 0
 
 Initial x velocity: 5
-
 Initial y velocity: 15
 
 x acceleration: 0
-
 y acceleration: -9.8
 
 Timestep size: 0.1
-
 Number of steps: 100
 
 
@@ -79,15 +75,24 @@ vtk_output/
 
 ## In VisIt
 
-1. Open `particles.visit`.
-2. Add a Pseudocolor plot using `solution_type` then press draw
-3. Add a Vector plot using `velocity_vector` then press draw
+1. Open particles.visit
+2. Add a Pseudocolor plot using solution_type then press draw
+3. Add a Vector plot using velocity_vector then press draw
 5. Press play and the animation should start
 
 ---
 
-## Results
+## Challenges and Results
 
-The visualization demonstrates how the Euler's Method errors over time which makes its path differ from the exact and RK4 solutions. RK4 produces a higher accuracy and matches the exact solution throughout the simulation. I know this is true because the RK4 solution overlaps the exact solution, proving they are the same and the Euler's method is slightly incorrect. 
+### Challenges
+
+One challenge I ran into was my particle not appearing. I had started with just the Euler method so I only had one particle at the beginning. I was incorrectly generating the files the VisIt could read and display.They would load in successfully, but wouldn't show any particles. Turns out it was a pretty simple fix and I had also scaled the particle too small. The weird thing is, later into the project the particle became huge and I had to scale it down again. I'm still not sure why this happened. I experimented with the particle size, velocity vectors, colors, trajectory trails, and camera angles in VisIt to illustrate the differences between the methods.
+
+I also encountered challenges when comparing the different methods in the same visualization. Since RK4 and the exact solution are nearly identical for projectile motion with constant acceleration, it looked like there were only two paths. I had to adjust timestep sizes and zoom into specific regions of the animation to clearly show the numerical error that accumulates in Euler's Method. The exact path and RK4 solution overlap.
+
+### Results
+
+This visualization project demonstrates how the Euler's Method errors over time which makes its path differ from the exact and RK4 solutions. RK4 produces a higher accuracy and matches the exact solution throughout the simulation. I know this is true because the RK4 solution overlaps the exact solution, proving they are the same and the Euler's method is slightly incorrect. I've been working on this project consistently for the past two weeks. I felt like with just implementing the Euler method it wasn't challenging enough, so I added the RK4 solution and the exact mathematical solution. Not only did this make it more challenging, it also made the project more exciting to watch and play around with. I also added some camera movement so the user can easily track the particle movement. 
+
 
 
