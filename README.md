@@ -51,15 +51,19 @@ Example inputs:
 The terminal will show examples for every input the user needs to provide so if they are confused there is guidance.
 
 Initial x position: 0
+
 Initial y position: 0
 
 Initial x velocity: 5
+
 Initial y velocity: 15
 
 x acceleration: 0
+
 y acceleration: -9.8
 
 Timestep size: 0.1
+
 Number of steps: 100
 
 
